@@ -1,0 +1,132 @@
+/*Estilos generales*/
+body {
+    font-family:Arial, sans-serif ;
+    background-color: #f4f4f4 ;
+    margin: 0;
+    padding: 0;
+
+}
+/*titulo principal*/
+#titulo-principal {
+    color: navy;
+    text-align: center;
+}
+/* parrafo de descripciom*/
+.descripcion {
+    color: #333 ;
+    font-size: 16px ;
+    text-align: center;
+}
+.card {
+    background-color: white ;
+    margin: 20px auto ;
+    padding: 20px ;
+    width: 80% ;
+    border-radius: 8px ;
+}
+ul {
+    list-style: square;
+}
+li {
+    margin: bottom 8px; ;
+
+}
+.boton {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton:hover {
+    background-color: darkorange;
+}
+@media (max-width: 768px){
+    .card{
+
+        background-color: red;
+    }
+}
+.container-form .campo,textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background: #286bcf;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.icon-elem{
+    list-style: none;
+
+}
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.menu-elem{
+    list-style: none;
+
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+
+}
+.menu-icon:hover{
+    opacity: 1;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
