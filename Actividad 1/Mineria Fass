@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device=width, initial-scale=1"/>
+        <link rel="stylesheet" href="personalizado.css">
+        <title>Mineria F.A.S.S</title>
+        <script src="https://kit.fontawesome.com/eb496abla0.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <!--Seccion Principal(encabezado?)-->
+        <h1 id="titulo-principal"> Mineria F.A.S.S</h1>
+        
+
+        <p class="descripcion">
+            Somos un grupo Minero que se dedica
+            a la explotacion y refinacion de recursos naturales a lo largo de Latinoamerica
+        </p>
+
+        <img src="img/Imagenn.png" alt="TrackAFighterMMA" width="180"/>
+<section class="card">
+        
+
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Refineria Monclova,Mexico</li>
+            <img src="img/Monclova.jpg" alt="TrackAFighterMMA" width="180"/>
+            <p>Dentro de las 5 Refinerias con mayor produccion de Mexico</p>
+            <li>Refineroa Ouro Preto,Brasil</li>
+            <img src="img/Brasil.jpeg" alt="TrackAFighterMMA" width="180"/>
+            <p>La Refineria mas grande de America</p>
+            <li>Pozo Minero  Cerro Negro, Argentina</li>
+            <img src="img/pozo.jpg" alt="TrackAFighterMMA" width="180"/>
+            <p>El pozo de carbon mas grande de Sudamerica</p>
+        </ul>
+        <h2>Contacto</h2>
+        <p>Correro: terribleMMa@gmail.com | Tel: 88 3332 4533</p>
+        <h2>Formulario</h2>
+        <div class="conteiner-form">
+            <div class="info-form">
+                
+
+            </div>
+            <form action="#" autocomplete="off">
+                <input type="text" name="Nombre" 
+                placeholder="Ingresa tu Nombre" class="campo">
+                <input type="email" name="Email"
+                placeholder="Ingrese su correo" class="campo">
+                <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+                <input type="submit" name="Enviar" value="Enviar Mensaje" class="boton">
+            </form>
+            <footer class="footer">
+                <ul class="social-icon">
+                    <li class="icon-elem">
+                        <a href="" class="icon">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="icon-elem">
+                        <a href="" class="icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="icon-elem">
+                        <a href="" class="icon">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="icon-elem">
+                        <a href="" class="icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="icon-elem">
+                        <a href="" class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Inicio</a>
+                    </li>
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Equipo</a>
+                    </li>
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Contacto</a>
+                    </li>
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Video</a>
+                    </li>
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Sobre Nosotros</a>
+                    </li>
+                </ul>
+                <p class="text" >"2026" | Todos los derechos reservados</p>
+            </footer>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+
+</section>
+    </body>
+
+</html>
