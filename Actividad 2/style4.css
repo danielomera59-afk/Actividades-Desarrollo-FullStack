@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: red;
+    border: black;
+    
+}
+.destacado{
+    font-weight: bold;
+    color: blue;
+}
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/**Celular**/
+@media (max-width:767px){
+    .Desktop{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px){
+    .Desktop{
+        display: none;
+    }
+    .Celular{
+        display: none;
+    }
+}
+/**Escritrio**/
+@media (min-width:991px){
+
+    .Tablet{
+        display: none;
+    }
+    .Celular{
+        display: none;
+    }
+}
