@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1715832000000,
+    "titulo": "Configurar Servidor",
+    "descripcion": "Instalar express, bcryptjs y jsonwebtoken para la API."
+  },
+  {
+    "id": 1715832005000,
+    "titulo": "Implementar Autenticación",
+    "descripcion": "Crear las rutas de registro y login con protección JWT."
+  },
+  {
+    "id": 1715832010000,
+    "titulo": "Pruebas en Postman",
+    "descripcion": "Verificar que las rutas GET, POST, PUT y DELETE funcionen con el token."
+  }
+]
