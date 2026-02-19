@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1771395634280,
+    "email": "DanielEspinoza@gmail.com",
+    "password": "$2b$10$v4Diz4srkzX.tJhdyKyXHeW0/f3H/JzuWJJsd0PU5g55P3BRqv7GW"
+  },
+  {
+    "id": 1771396866039,
+    "email": "Daniel@correo.com",
+    "password": "$2b$10$IxFNUu8ZcblQUn2oXzrOc.DM3cNcSEziK0hijejLFUpGZpR0XQR1G"
+  },
+  {
+    "id": 1771397867777,
+    "email": "Daniel@correo.com",
+    "password": "$2b$10$X11E.2Cr58kHasSDdfT/k.mPjSqTLs.fTXTP4XkfoZefcRT17ktb6"
+  },
+  {
+    "id": 1771400632214,
+    "email": "Daniel@correo.com",
+    "password": "$2b$10$gdrYmPUANWMdTelCcFTul.RHpIddYnrZJffadbtfi2wPaUHgvmGKO"
+  },
+  {
+    "id": 1771401093255,
+    "email": "Daniel@correo.com",
+    "password": "$2b$10$YcgZbHum3DECzjKdsaSiy.Z73u36Qo1Mmcao9Wb0ZVvCqJhHvUMvq"
+  },
+  {
+    "id": 1771401252505,
+    "email": "Daniel@correo.com",
+    "password": "$2b$10$TqOoXLrK.fen66r5p8Pi8ODdy57BWNZ4v1NON0BTzkkxQ5aMqJmDO"
+  },
+  {
+    "id": 1771458756509,
+    "email": "Daniel1@correo.com",
+    "password": "$2b$10$BWLppO3nhL82zPFBYZAYlOTeY6t.7cf8Mdtj4KpCd61fG1fhjnIJS"
+  },
+  {
+    "id": 1771458940000,
+    "email": "Daniel2@correo.com",
+    "password": "$2b$10$2q29Q3QBKvoczPP5sE/kIeUXWYoMEcmAe4RWGuQa1gOstleCpLSZ2"
+  }
+]
