@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Mi Aplicación</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+        form { border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
+        input { display: block; margin-bottom: 10px; width: 200px; }
+    </style>
+</head>
+<body>
+    <form id="loginForm">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" id="username" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+        <p id="mensaje"></p>
+    </form>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const res = await fetch('/api/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            });
+
+            const data = await res.json();
+            if (data.token) {
+                // GUARDAR EL TOKEN EN EL NAVEGADOR
+                localStorage.setItem('token', data.token);
+                document.getElementById('mensaje').innerText = "Login exitoso Token guardado.";
+                console.log("Token:", data.token);
+            } else {
+                document.getElementById('mensaje').innerText = "Error: " + data.error;
+            }
+        });
+    </script>
+</body>
+</html>
